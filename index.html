@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia de Danza Clásica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tagesschrift';
+            background-color: #fce4ec;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8bbd0;
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #880e4f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #880e4f;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            width: 50%;
+            margin: 20px auto;
+            background: #f8bbd0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #f8bbd0;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        marquee {
+            font-weight: bold;
+            color: #880e4f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Academia de Danza Clásica</h1>
+        <marquee>¡Inscripciones abiertas todo el año!</marquee>
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="clases.html">Clases</a>
+            <a href="galeria.html">Galería</a>
+            <a href="https://www.instagram.com/ballet/" target="_blank">Instagram</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="text-align: center;">Bienvenidos a nuestra Academia</h2>
+        <p style="text-align: center; width: 80%; margin: auto;">
+            Somos una academia especializada en ballet clásico para todas las edades.
+              <embed src="file:///C|/Users/maria/OneDrive/Documentos/Sitio sin nombre 2/index.html" width="32" height="32"></embed>
+        </p>
+
+        <table>
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+                <th>Grupo</th>
+            </tr>
+            <tr>
+                <td>Lunes y Miércoles</td>
+                <td>16:00 - 18:00</td>
+                <td>Infantil</td>
+            </tr>
+            <tr>
+                <td>Martes y Jueves</td>
+                <td>18:00 - 20:00</td>
+                <td>Juvenil</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>17:00 - 19:00</td>
+                <td>Avanzado</td>
+            </tr>
+        </table>
+
+        <form>
+            <h3>Formulario de Inscripción</h3>
+            Nombre: <input type="text" name="nombre"><br><br>
+            Edad: <input type="number" name="edad"><br><br>
+            Nivel: 
+            <select name="nivel">
+                <option>Infantil</option>
+                <option>Juvenil</option>
+                <option>Avanzado</option>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div style="text-align: center; margin: 20px;">
+            <audio controls>
+                <source src="musica_ballet.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="video_ballet.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </div>
+    </main>
+
+    <footer>
+      <p>Se parte de nuestra academia!!</p>
+      <p>ig/@ballet_academia_grace </p>
+      <p>academiagraceballet.com</p>
+      <p>Academia Grace Ballet    </p>
+    </footer>
+</body>
+</html>
